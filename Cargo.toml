@@ -250,12 +250,12 @@ extend-exclude = ["/.git", "fixtures"]
 # These patches use a different version of `typst`, which only exports some private functions and information for code analysis.
 #
 # A regular build MUST use `tag` or `rev` to specify the version of the patched crate to ensure stability.
-typst = { git = "https://github.com/Myriad-Dreamin/typst.git", tag = "tinymist-v0.12.0" }
-typst-timing = { git = "https://github.com/Myriad-Dreamin/typst.git", tag = "tinymist-v0.12.0" }
-typst-svg = { git = "https://github.com/Myriad-Dreamin/typst.git", tag = "tinymist-v0.12.0" }
-typst-render = { git = "https://github.com/Myriad-Dreamin/typst.git", tag = "tinymist-v0.12.0" }
-typst-pdf = { git = "https://github.com/Myriad-Dreamin/typst.git", tag = "tinymist-v0.12.0" }
-typst-syntax = { git = "https://github.com/Myriad-Dreamin/typst.git", tag = "tinymist-v0.12.0" }
+typst = { git = "https://github.com/stetrevor/typst.git", tag = "tinymist-v0.12.0" }
+typst-timing = { git = "https://github.com/stetrevor/typst.git", tag = "tinymist-v0.12.0" }
+typst-svg = { git = "https://github.com/stetrevor/typst.git", tag = "tinymist-v0.12.0" }
+typst-render = { git = "https://github.com/stetrevor/typst.git", tag = "tinymist-v0.12.0" }
+typst-pdf = { git = "https://github.com/stetrevor/typst.git", tag = "tinymist-v0.12.0" }
+typst-syntax = { git = "https://github.com/stetrevor/typst.git", tag = "tinymist-v0.12.0" }
 
 # These patches use local `typst` for development.
 # typst = { path = "../typst/crates/typst" }
