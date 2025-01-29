@@ -5,8 +5,8 @@ version = "0.12.18"
 edition = "2021"
 readme = "README.md"
 license = "Apache-2.0"
-homepage = "https://github.com/Myriad-Dreamin/tinymist"
-repository = "https://github.com/Myriad-Dreamin/tinymist"
+homepage = "https://github.com/stetrevor/tinymist"
+repository = "https://github.com/stetrevor/tinymist"
 # also change in ci.yml
 rust-version = "1.82"
 
