@@ -40,9 +40,9 @@
 }
 
 #typst-container.content-preview svg {
-  image-rendering: optimizeSpeed;
-  shape-rendering: optimizeSpeed;
-  text-rendering: optimizeSpeed;
+  image-rendering: geometricPrecision;
+  shape-rendering: geometricPrecision;
+  text-rendering: geometricPrecision;
 }
 
 #typst-container.mode-doc #typst-top-toolbar {
